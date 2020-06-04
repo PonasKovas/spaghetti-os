@@ -16,7 +16,7 @@ cargo install cargo-xbuild
 ```
 3. Make sure you have `rust-src`
 ```sh
-`rustup component add rust-src`
+rustup component add rust-src
 ```
 4. Make sure you have `bootimage`
 ```sh
