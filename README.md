@@ -4,6 +4,8 @@ My attempt at making a simple snake game at the kernel level
 
 This has to be the worst code I have ever written, everything is unsafe and unreadable, but it works :)
 
+![](https://i.imgur.com/vikkH0S.png)
+
 ## Compiling
 
 1. Make sure you have the nightly toolchain installed
