@@ -1,0 +1,19 @@
+[package]
+name = "spaghetti-os"
+version = "0.1.0"
+authors = ["Ponas <mykolas.peteraitis@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bootloader = "0.9.4"
+pic8259_simple = "0.2.0"
+x86_64 = "0.11.0"
+uart_16550 = "0.2.0"
+lazy_static = {version = "1.4.0", features = ["spin_no_std"]}
+spin = "0.5.2"
+
+[profile.dev]
+panic = "abort" # disable stack unwinding on panic
+
+[profile.release]
+panic = "abort" # disable stack unwinding on panic
